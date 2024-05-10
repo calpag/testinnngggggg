@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     // Добавляем локальные тайлы
     L.tileLayer('tiles/{z}/{x}/{y}.jpg', {
-        minZoom: 3, // Минимальный зум
+        minZoom: 1, // Минимальный зум
         maxZoom: 6, // Максимальный зум
         tileSize: 256,
         attribution: '&copy; OpenStreetMap contributors',
